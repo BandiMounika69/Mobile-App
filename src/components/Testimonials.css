@@ -1,0 +1,49 @@
+/* src/components/Testimonials.css */
+
+/* General Section Styling */
+#testimonials {
+  background-color: #f9f9f9; /* Light grey background for the testimonials section */
+  padding: 50px 20px; /* Space around the content */
+  text-align: center; /* Center-align all text in the section */
+}
+
+/* Heading Styling */
+#testimonials h3 {
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Darker text color */
+}
+
+/* Testimonial Cards Container */
+.testimonial-cards {
+  display: flex; /* Use flexbox to arrange cards */
+  flex-wrap: wrap; /* Allow wrapping of cards to the next line */
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Space between the cards */
+}
+
+/* Individual Testimonial Card */
+.testimonial-card {
+  background-color: #4caf50; /* Green background for cards */
+  border: 1px solid #ddd; /* Light grey border around cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Space inside the card */
+  max-width: 300px; /* Maximum width for cards */
+  text-align: left; /* Left-align text inside cards */
+  color: #fff; /* White text color for better contrast on green background */
+}
+
+/* Testimonial Quote */
+.testimonial-card p:first-of-type {
+  font-style: italic; /* Italicize the quote */
+  color: #fff; /* White text color */
+  margin-bottom: 10px; /* Space below the quote */
+}
+
+/* Testimonial Author */
+.testimonial-card p:last-of-type {
+  text-align: right; /* Align author name to the right */
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold author name */
+}

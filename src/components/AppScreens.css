@@ -1,0 +1,76 @@
+.app-screens {
+  background-color: #e0f7df; /* Light green background */
+  padding: 50px 20px;
+}
+
+.app-screens h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.screenshots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.screenshots img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.screenshots div {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.screenshots h1 {
+  font-size: 1.5rem;
+  color: #27ae60; /* Green color for headings */
+  margin-bottom: 10px;
+}
+
+.screenshots p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 60px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.para {
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+button {
+  background-color: #27ae60; /* Green button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #219150; /* Darker green on hover */
+}

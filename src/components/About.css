@@ -1,0 +1,28 @@
+/* src/components/About.css */
+.about {
+  padding: 50px 20px;
+
+  color: #ffffff;
+}
+
+.about-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-content h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
